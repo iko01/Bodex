@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="summernote-bs4.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="stylesheets/../style.css"> -->
+    <link rel="stylesheet" href="style-css-test.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.js"></script>
+    <!--JS-->
+    <script type="text/javascript" src="scripts.js"></script>
+
+
+
+    <title>PHU Bodex Bogdan Szczubełek International Carrier </title>
+</head>
+
+<body>
+
+    <div class="section-container">
+
+        <!--menu nav-->
+
+        <div class="section-navbar">
+
+            <nav class="topnav">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="logo" src="logo-concento.jpg" alt="logo concento" href="#logo">
+                    </div>
+                    <div class="col-sm-8">
+                        <ul class="menu-bar-right">
+                            <li><a href="#over ons">Start</a></li>
+                            <li><a href="#nieuws">nowości</a></li>
+                            <li><a href="#agenda">Galeria</a></li>
+                            <li><a href="#boeking-form" id="boeking">Zapytanie</a></li>
+                            <li><a href="#lidworden">O nas</a></li>
+                            <li><a href="#contact">Kontact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!--admin panel-->
+
+        <div class="section-panel">
+
+            <div class="admin-panel-choicemenu">
+                <div class="admin-panel-menu menu-up">
+                    <ul>
+                        <li><a href="#slider-foto's">Start</a></li>
+                        <li><a id="bckg-color" href="#over ons-panel">nowości</a></li>
+                        <li><a href="#nieuws-panel">Galeria</a></li>
+                        <li><a href="#agenda-panel">Zapytanie</a></li>
+                        <li><a href="#lid worden-panel">O nas</a></li>
+                        <li><a href="#contact">kONTACT</a></li>
+                    </ul>
+                    <h2>Formularz kontaktowy</h2>
+                    <form method="post">
+                        <textarea id="summernote" name="editordata"></textarea>
+                    </form>
+                    <!-- <script>
+                        $(document).ready(function() {
+                            $('#summernote').summernote({
+                                height: 400,
+                                minHeight: 250,
+                                maxHeight: 1000,
+                                width: 1000,
+                                focus: true
+                            });
+                        });
+                    </script> -->
+                    <button type="button" class="btn btn-warning btn-primary" id="button-center">Wyslij</button>
+                    <button type="button" class="btn btn-dark" id="button-corner-right">Powrót</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--footer-->
+
+        <footer class="section-footer">
+
+            <div class="footer-container">
+                <div class="footer-info">
+                   
+                </div>
+                <div class="footer-post">
+                    <h2>Adres kontaktowy:</h2>
+                    <p> Ławy 23<br> 07-401 <br> Polska<br>
+                        tel. +48604758101
+                    </p>
+                </div>
+                <div class="footer-free-space"></div>
+                <div class="footer-divider">
+                    <div class="footer-terms-and-conditions">
+                        <h2><a href="privacy-policy.html">Polityka prywatności</a></h2>
+                        @COPYRIGHT Konrad Stepnowski
+                    </div>
+                    <div class="footer-admin-panel">
+                        <h2 id="panel-button"><a href="admin-panel.html">Admin Panel</a></h2>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
